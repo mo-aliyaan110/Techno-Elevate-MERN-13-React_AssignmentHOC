@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDom from 'react-dom';
-import Voting from './components/Withvoting';
+// import Voting from './components/Withvoting';
+import VoteComps from './components/VoteComps';
 function Index() {
     return (
         <div>
-            <WithVoting/>
+            <VoteComps/>
         </div>
     )
 }
